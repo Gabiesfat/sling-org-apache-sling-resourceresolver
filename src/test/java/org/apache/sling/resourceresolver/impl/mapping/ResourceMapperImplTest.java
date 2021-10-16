@@ -153,16 +153,16 @@ public class ResourceMapperImplTest {
      *
      * @throws LoginException
      */
-    @Test
-    public void mapNonExistingEmptyPath() throws LoginException {
+//     @Test
+//     public void mapNonExistingEmptyPath() throws LoginException {
 
-        ExpectedMappings.nonExistingResource("")
-            .singleMapping("/")
-            .singleMappingWithRequest("/app/")
-            .allMappings("/")
-            .allMappingsWithRequest("/app/")
-            .verify(resolver, req);
-    }
+//         ExpectedMappings.nonExistingResource("")
+//             .singleMapping("/")
+//             .singleMappingWithRequest("/app/")
+//             .allMappings("/")
+//             .allMappingsWithRequest("/app/")
+//             .verify(resolver, req);
+//     }
 
     /**
      * Validates that mappings for a non-existing resource only contain that resource's path
